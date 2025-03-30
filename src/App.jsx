@@ -1,6 +1,6 @@
 
-import NavBar from "./Components/NavBar";
-import Side from "./Components/Side";
+import NavBar from "./Components/NavBar/NavBar";
+import Side from "./Components/Side/Side";
 
 function App() { 
 
