@@ -1,3 +1,10 @@
+:root {
+  --primary-color: #191e22;
+  --secondary-color: #ff8800;
+  --accent-color: #70757b;
+  --text-color: #f2f2f2;
+}
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -8,5 +15,11 @@
 
 body {
   height: 100vh;
-  background-color: #70757b;
+  background-color: var(--accent-color);
+  color: var(--text-color);  
+}
+
+main {
+  display: flex;
+  position: relative;
 }
