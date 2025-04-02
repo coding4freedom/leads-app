@@ -1,0 +1,29 @@
+
+.profile {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: .7rem;
+    border-radius: 6px;
+    border: 1px solid var(--border-color);
+}
+
+.profile-pic {
+    height: 35px;
+    width: 35px;
+    margin-right: .5rem;
+    border-radius: 50%;
+}
+
+.profile-user--wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+.profile-username {
+    font-size: 1rem;
+}
+
+.profile-user--title {
+    font-size: .8rem;
+}

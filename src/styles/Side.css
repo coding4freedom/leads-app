@@ -11,6 +11,8 @@ aside {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    height: 35px;
+    margin-bottom: 1rem;
 }
 
 .side-header-btn {
